@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Validate organization profile
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Validate profile files and links
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          test -s README.md
+          test -s profile/README.md
+
+          h1_count="$(grep -c '^# ' profile/README.md || true)"
+          test "$h1_count" -eq 1
+
+          grep -Fq 'https://zlet.app' profile/README.md
+          grep -Fq 'https://github.com/zlet-labs/batch-converter' profile/README.md
