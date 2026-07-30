@@ -1,31 +1,42 @@
 # Zlet Labs
 
-Small practical tools for everyday workflows, data, QA, creators, and lightweight productivity.
+Small practical tools for everyday workflows, data, QA and lightweight productivity.
 
-We build focused browser tools and local Windows utilities that are easy to understand, use, and leave. No forced accounts, fake platform claims, or onboarding funnels.
+We build focused browser tools and local Windows utilities that are easy to understand, use and leave.
 
 ## Available tools
 
 ### Zlet Batch Converter
 
-A local Windows batch converter for DOC, XLS, PPT, modern Office files, and JSON export workflows. Legacy DOC/XLS/PPT conversion uses installed Microsoft Office. Files stay on the device.
+Local Windows utility for batch processing files inside folders and subfolders.
+
+Supported workflows include:
+
+- DOC → DOCX through installed Microsoft Word
+- XLS → XLSX through installed Microsoft Excel
+- PPT → PPTX through installed Microsoft PowerPoint
+- safe copying of DOCX, XLSX and PPTX files
+- JSON → TXT or Markdown
+- folder or ZIP output
+
+Files are processed locally. Original files are not deleted or overwritten.
 
 - [Repository](https://github.com/zlet-labs/batch-converter)
 - [Download v0.0.1](https://github.com/zlet-labs/batch-converter/releases/tag/v0.0.1)
-- [Report a bug](https://github.com/zlet-labs/batch-converter/issues)
 
 ### zlet.app
 
-The public home for small browser tools, including synthetic QA data generation and responsive testing workflows.
+Practical browser tools for synthetic QA data, responsive testing and small everyday workflows.
 
 - [Open Zlet Labs](https://zlet.app)
 
 ## How we build
 
-- Small, focused, and self-serve
-- Browser-first tools or local desktop utilities
+- Small, focused and self-serve
+- Browser-first or local desktop tools
 - Local processing where practical
-- Clear copy, export, and download paths
-- Honest limitations and release status
+- No forced accounts or onboarding funnels
+- Clear copy, visible actions and honest limitations
+- No unnecessary backend, tracking or cloud complexity
 
 Synthetic personal-looking data produced by our tools is test data and must not be treated as real personal data.
