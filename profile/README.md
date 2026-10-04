@@ -8,12 +8,14 @@ Small, focused software built around privacy, reproducibility, and useful output
 
 </div>
 
-## Projects
+## Public projects
 
 | Project | What it does | Status |
 | --- | --- | --- |
-| **[Zlet Converter](https://github.com/zlet-labs/zlet-converter)** | Converts documents into high-quality Markdown locally, with format-aware routing and explicit diagnostics. | Public Beta in progress |
-| **[Zlet AI Pulse](https://github.com/zlet-labs/zlet-ai-pulse)** | Lightweight Windows monitor for AI coding usage and quotas. | Public |
+| **[Zlet Converter](https://github.com/zlet-labs/zlet-converter-releases)** | Converts documents into high-quality Markdown locally, with format-aware routing and explicit diagnostics. | Public Beta in progress |
+| **[Zlet AI Pulse](https://github.com/zlet-labs/zlet-ai-pulse)** | Lightweight Windows monitor for AI coding usage and quota visibility. | Public |
+
+> Source code and engineering repositories may be private. Public downloads and release notes for Zlet Converter live in the dedicated releases repository.
 
 ## How we build
 
@@ -24,9 +26,9 @@ Small, focused software built around privacy, reproducibility, and useful output
 
 ## Zlet Converter
 
-Zlet Converter is the current primary public project. Its job is deliberately narrow: turn documents into usable Markdown while preserving meaningful document structure. Legacy Office modernization is handled as a separate route where appropriate.
+Zlet Converter is the current primary public product. Its job is deliberately narrow: turn documents into usable Markdown while preserving meaningful document structure. Legacy Office modernization is handled as a separate route where appropriate.
 
-Development is coordinated across engineering, conversion research, design, and release acceptance while keeping the end-user product simple.
+The first Public Beta, **v0.1.0-beta.1**, is in preparation. Official downloads, checksums, release notes, and known limitations are published in **[zlet-converter-releases](https://github.com/zlet-labs/zlet-converter-releases)**.
 
 ---
 
