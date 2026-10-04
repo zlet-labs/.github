@@ -1,42 +1,33 @@
+<div align="center">
+
 # Zlet Labs
 
-Small practical tools for everyday workflows, data, QA and lightweight productivity.
+**Local-first tools for documents, QA, and practical AI workflows.**
 
-We build focused browser tools and local Windows utilities that are easy to understand, use and leave.
+Small, focused software built around privacy, reproducibility, and useful output rather than cloud dependency.
 
-## Available tools
+</div>
 
-### Zlet Batch Converter
+## Projects
 
-Local Windows utility for batch processing files inside folders and subfolders.
-
-Supported workflows include:
-
-- DOC → DOCX through installed Microsoft Word
-- XLS → XLSX through installed Microsoft Excel
-- PPT → PPTX through installed Microsoft PowerPoint
-- safe copying of DOCX, XLSX and PPTX files
-- JSON → TXT or Markdown
-- folder or ZIP output
-
-Files are processed locally. Original files are not deleted or overwritten.
-
-- [Repository](https://github.com/zlet-labs/batch-converter)
-- [Download v0.0.1](https://github.com/zlet-labs/batch-converter/releases/tag/v0.0.1)
-
-### zlet.app
-
-Practical browser tools for synthetic QA data, responsive testing and small everyday workflows.
-
-- [Open Zlet Labs](https://zlet.app)
+| Project | What it does | Status |
+| --- | --- | --- |
+| **[Zlet Converter](https://github.com/zlet-labs/zlet-converter)** | Converts documents into high-quality Markdown locally, with format-aware routing and explicit diagnostics. | Public Beta in progress |
+| **[Zlet AI Pulse](https://github.com/zlet-labs/zlet-ai-pulse)** | Lightweight Windows monitor for AI coding usage and quotas. | Public |
 
 ## How we build
 
-- Small, focused and self-serve
-- Browser-first or local desktop tools
-- Local processing where practical
-- No forced accounts or onboarding funnels
-- Clear copy, visible actions and honest limitations
-- No unnecessary backend, tracking or cloud complexity
+- **Local-first and privacy-first.** Local processing is preferred; cloud services are never a hidden requirement.
+- **Evidence over claims.** Quality decisions should be reproducible and backed by explicit tests or research evidence.
+- **Focused products.** A small tool that does one job well beats a sprawling feature catalogue.
+- **Explicit limitations.** Unsupported capabilities should be visible instead of silently producing degraded output.
 
-Synthetic personal-looking data produced by our tools is test data and must not be treated as real personal data.
+## Zlet Converter
+
+Zlet Converter is the current primary public project. Its job is deliberately narrow: turn documents into usable Markdown while preserving meaningful document structure. Legacy Office modernization is handled as a separate route where appropriate.
+
+Development is coordinated across engineering, conversion research, design, and release acceptance while keeping the end-user product simple.
+
+---
+
+<sub>Zlet Labs is an independent software lab building practical tools for real workflows.</sub>
