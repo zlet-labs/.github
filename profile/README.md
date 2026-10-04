@@ -2,34 +2,59 @@
 
 # Zlet Labs
 
-**Local-first tools for documents, QA, and practical AI workflows.**
+### Local-first software for documents, QA, and practical AI workflows.
 
-Small, focused software built around privacy, reproducibility, and useful output rather than cloud dependency.
+**Private by default. Evidence over claims. Useful software over feature sprawl.**
+
+<br>
+
+[![Zlet Converter](https://img.shields.io/badge/Zlet_Converter-Public_Beta_in_progress-2f81f7?style=for-the-badge)](https://github.com/zlet-labs/zlet-converter-releases)
+[![Zlet AI Pulse](https://img.shields.io/badge/Zlet_AI_Pulse-Early_development-6e7681?style=for-the-badge)](https://github.com/zlet-labs/zlet-ai-pulse)
 
 </div>
 
-## Public projects
+---
 
-| Project | What it does | Status |
-| --- | --- | --- |
-| **[Zlet Converter](https://github.com/zlet-labs/zlet-converter-releases)** | Converts documents into high-quality Markdown locally, with format-aware routing and explicit diagnostics. | Public Beta in progress |
-| **[Zlet AI Pulse](https://github.com/zlet-labs/zlet-ai-pulse)** | Lightweight Windows monitor for AI coding usage and quota visibility. | Public |
+## Products
 
-> Source code and engineering repositories may be private. Public downloads and release notes for Zlet Converter live in the dedicated releases repository.
+### Zlet Converter
 
-## How we build
+**Documents in. Clean Markdown out. Locally.**
 
-- **Local-first and privacy-first.** Local processing is preferred; cloud services are never a hidden requirement.
-- **Evidence over claims.** Quality decisions should be reproducible and backed by explicit tests or research evidence.
-- **Focused products.** A small tool that does one job well beats a sprawling feature catalogue.
-- **Explicit limitations.** Unsupported capabilities should be visible instead of silently producing degraded output.
+A privacy-first Windows desktop converter focused on producing usable Markdown from real documents. Format-aware conversion, batch workflows, explicit diagnostics, and no mandatory cloud or LLM API.
 
-## Zlet Converter
+**Status:** Public Beta in progress  
+**Platform:** Windows  
+**Price:** Free
 
-Zlet Converter is the current primary public product. Its job is deliberately narrow: turn documents into usable Markdown while preserving meaningful document structure. Legacy Office modernization is handled as a separate route where appropriate.
+[**Downloads & release notes →**](https://github.com/zlet-labs/zlet-converter-releases)
 
-The first Public Beta, **v0.1.0-beta.1**, is in preparation. Official downloads, checksums, release notes, and known limitations are published in **[zlet-converter-releases](https://github.com/zlet-labs/zlet-converter-releases)**.
+### Zlet AI Pulse
+
+A lightweight Windows monitor for AI coding usage and quota visibility.
+
+**Status:** Early development
+
+[**View project →**](https://github.com/zlet-labs/zlet-ai-pulse)
 
 ---
 
-<sub>Zlet Labs is an independent software lab building practical tools for real workflows.</sub>
+## What Zlet Labs optimizes for
+
+| Principle | What it means |
+| --- | --- |
+| **Local-first** | Keep user data on the user's machine whenever the product can do the job locally. |
+| **Evidence over claims** | Quality decisions should be reproducible and backed by tests or explicit research evidence. |
+| **Focused products** | Solve a narrow problem well before adding another layer of features. |
+| **Explicit limitations** | Unsupported or degraded capabilities should be visible, not disguised as success. |
+| **Practical AI** | Use AI where it creates measurable value, not because a landing page needs the letters “AI”. |
+
+---
+
+<div align="center">
+
+**Zlet Labs** · Independent software lab · Local-first by design
+
+<sub>Engineering repositories may be private. Public product downloads and documentation are linked above.</sub>
+
+</div>
