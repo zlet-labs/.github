@@ -8,7 +8,7 @@
 
 <br>
 
-[![Zlet Converter](https://img.shields.io/badge/Zlet_Converter-Public_Beta_0.1.1-2f81f7?style=for-the-badge)](https://github.com/zlet-labs/zlet-converter-releases)
+[![Zlet Converter](https://img.shields.io/badge/Zlet_Converter-Public_Beta_0.1.2-2f81f7?style=for-the-badge)](https://github.com/zlet-labs/zlet-converter-releases)
 [![Zlet AI Pulse](https://img.shields.io/badge/Zlet_AI_Pulse-Early_development-6e7681?style=for-the-badge)](https://github.com/zlet-labs/zlet-ai-pulse)
 
 </div>
@@ -23,13 +23,13 @@
 
 A privacy-first Windows desktop converter focused on producing usable Markdown from real documents. Format-aware conversion, batch workflows, explicit diagnostics, and no mandatory cloud or LLM API.
 
-**Status:** Public Beta 0.1.1
+**Status:** Public Beta 0.1.2
 **Platform:** Windows
 **License:** Free for personal, non-commercial use
 
-[**Website and 32.5-second demo →**](https://zlet.app/converter) · [Downloads & release notes](https://github.com/zlet-labs/zlet-converter-releases)
+[**Website and 32.5-second demo (0.1.1) →**](https://zlet.app/converter) · [Downloads & release notes](https://github.com/zlet-labs/zlet-converter-releases/releases/tag/v0.1.2)
 
-[![Real Zlet Converter demo](https://zlet.app/converter/demo/demo-poster.webp)](https://zlet.app/converter)
+[![Real Zlet Converter demo (0.1.1)](https://zlet.app/converter/demo/demo-poster.webp)](https://zlet.app/converter)
 
 ### Zlet Tab
 
